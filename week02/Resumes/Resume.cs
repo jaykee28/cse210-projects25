@@ -11,7 +11,7 @@ public class Resume
     {
         Console.WriteLine($"Name: {_name}");
         Console.WriteLine("Jobs:");
-        
+
         // Iterate through job list and call each Job's Display method
         foreach (Job job in _jobs)
         {
